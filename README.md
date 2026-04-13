@@ -42,15 +42,24 @@ Manages the collection of books and members.
 library = Library()
 
 # Add books
-library.add_book(Book("1984", "George Orwell", "B001"))
-library.add_book(Book("To Kill a Mockingbird", "Harper Lee", "B002"))
+library.add_book(Book("Things Fall Apart", "Chinua Achebe", "B001"))
+library.add_book(Book("You Said I Was Your Favourite", "Monica Murphy", "B002"))
+library.add_book(Book("Predator", "Tom Cain", "B003"))
+library.add_book(Book("Sophie's World", "Jostein Gaarder", "B004"))
+library.add_book(Book("The Stranger", "Albert Camus", "B005"))
+library.add_book(Book("Soumission", "Michel Houellebecq", "B006"))
+library.add_book(Book("The Murder That Never Was", "Julie McElwain", "B007"))
 
 # Register members
-library.register_member(Member("Alice", "M001", []))
-library.register_member(Member("Bob", "M002", []))
+library.register_member(Member("Nilla", "M001", []))
+library.register_member(Member("Nalla", "M002", []))
+library.register_member(Member("Jacky", "M003", []))
+library.register_member(Member("James", "M004", []))
 
 # Borrow and return books
 library.borrow_book("M001", "B001")
+library.borrow_book("M001", "B004")
+library.borrow_book("M002", "B003")
 library.return_book("M001", "B001")
 
 # Print library state
