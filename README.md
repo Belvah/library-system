@@ -66,6 +66,27 @@ library.return_book("M001", "B001")
 print(library)
 ```
 
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Belvah/library-system.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd library-system
+   ```
+3. Run the program:
+   ```bash
+   python3 library_system.py
+   ```
+
+## Tools Used
+
+- **Python 3** — Programming language
+- **VS Code** — Code editor
+- **Git & GitHub** — Version control and hosting
+
 ## Contact
 
 - **Name:** Belvah Shanyisa
